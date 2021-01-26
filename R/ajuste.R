@@ -5,7 +5,9 @@
 #' @docType package
 #' @name linmodEst
 #' @aliases jonathan_ajuste
-#'
+#' @examples
+#' reg <- linmodEst(cbind(1, dados$x), dados$y)
+#' reg
 #'
 NULL
 
@@ -35,9 +37,10 @@ linmodEst <- function(x, y){
 #' @docType package
 #' @name linmod
 #' @aliases jonathan_ajuste1
-#'
+#' @examples
+#' reg2 <- linmod(cbind(1, dados$x), dados$y)
+#' reg2
 NULL
-
 
 #' @export
 linmod <- function(x, ...){

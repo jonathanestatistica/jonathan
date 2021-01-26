@@ -8,6 +8,11 @@
 \description{
 Funcoes que tem como objetivo ajusta o modelo com base nos Minimos Quadrados e estimar todos os parametros.
 }
+\examples{
+reg <- linmodEst(cbind(1, dados$x), dados$y)
+reg
+
+}
 \author{
 Jonathan S. Matias
 }
