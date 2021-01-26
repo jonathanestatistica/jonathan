@@ -1,3 +1,15 @@
+#'
+#' @title funcao de ajuste do modelo
+#' @description Funcoes que tem como objetivo ajusta o modelo com base nos Minimos Quadrados e estimar todos os parametros.
+#' @author Jonathan S. Matias
+#' @docType package
+#' @name linmodEst
+#' @aliases jonathan_ajuste
+#'
+#'
+NULL
+
+#' @export
 linmodEst <- function(x, y){
   ## compute QR-decomposition of x
   qx <- qr(x)
@@ -16,13 +28,30 @@ linmodEst <- function(x, y){
 }
 
 
-# ?UseMethod
-# criando a função genérica linmod:
+
+#' @title limod_principal
+#' @description Principal funcao generica limod
+#' @author Jonathan S. Matias
+#' @docType package
+#' @name linmod
+#' @aliases jonathan_ajuste1
+#'
+NULL
+
 
 #' @export
 linmod <- function(x, ...){
   UseMethod("linmod")
 }
+
+#' @title limod_defaut
+#' @description Funcao limod para adicionar o metodo que estara disponivel no default.
+#' @author Jonathan S. Matias
+#' @docType package
+#' @name linmod.defaut
+#' @aliases jonathan_ajuste2
+#'
+NULL
 
 #' @export
 linmod.default <- function(x, y, ...){
@@ -36,9 +65,18 @@ linmod.default <- function(x, y, ...){
   est
 }
 
+#' @title limod_formula
+#' @description Funcao que tem como objetivo estabelecer a formula basica que deve ser utilizada na funcao a fim de estimar o modelo.
+#' @author Jonathan S. Matias
+#' @docType package
+#' @name linmod.formula
+#' @aliases jonathan_ajuste3
+#'
+NULL
+
 #' @export
 linmod.formula <- function(formula, data=list(), ...){
-  mf <- model.frame(formula=formula, data=consumo)
+  mf <- model.frame(formula=formula, data=data)
   x <- model.matrix(attr(mf, "terms"), data=mf)
   y <- model.response(mf)
   est <- linmod.default(x, y, ...)

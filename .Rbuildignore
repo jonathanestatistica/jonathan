@@ -6,3 +6,4 @@
 ^inst/script_development\.R$
 ^script_development\.R$
 ^inst/script_testes_templates\.R$
+^inst/script_testes\.R$

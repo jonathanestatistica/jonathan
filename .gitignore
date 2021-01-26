@@ -4,3 +4,4 @@
 .Ruserdata
 inst/script_development.R
 inst/script_testes_template.R
+inst/script_testes.R

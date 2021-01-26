@@ -1,16 +1,16 @@
 Package: Jonathan
 Type: Package
-Title: Modelo de consumo em funcao da renda.
+Title: Modelo de consumo em funcao da renda
 Version: 0.1.0
 Author: person(given = "Jonathan", 
       family = "Matias", 
       email = "jonathanestatistica@gmail.com", 
       role = c("aut", "cre"))
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: Este e meu primeiro pacote para estimar o modelo LM. A base de dados utilizada foi "Gasto com consumo real" e "renda disponíve" nos EUA, 1944-2000.
+Maintainer: The package maintainer <jonathanestatistica@gmail.com>
+Description: Este e meu primeiro pacote para estimar o modelo LM.
 URL: https://github.com/jonathanestatistica/jonathan
 BugReports: https://github.com/jonathanestatistica/jonathan/issues
-License: What license is it under?
+License: GPL (>= 2)
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
