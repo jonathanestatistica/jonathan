@@ -1,0 +1,6 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^inst/script_depelopment$
+^inst/script_testes_templates$
+^inst/script_depelopment\.R$
+^inst/script_development\.R$
