@@ -16,13 +16,13 @@ linmodEst <- function(x, y){
 }
 
 
+# ?UseMethod
+# criando a função genérica linmod:
 
 #' @export
 linmod <- function(x, ...){
   UseMethod("linmod")
 }
-
-
 
 #' @export
 linmod.default <- function(x, y, ...){
@@ -36,4 +36,13 @@ linmod.default <- function(x, y, ...){
   est
 }
 
-
+#' @export
+linmod.formula <- function(formula, data=list(), ...){
+  mf <- model.frame(formula=formula, data=consumo)
+  x <- model.matrix(attr(mf, "terms"), data=mf)
+  y <- model.response(mf)
+  est <- linmod.default(x, y, ...)
+  est$call <- match.call()
+  est$formula <- formula
+  est
+}

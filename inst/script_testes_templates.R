@@ -15,3 +15,5 @@ linmodEst <- function(x, y)
        sigma = sqrt(sigma2),
        df = df)
 }
+
+linmodEst(cbind(1,consumo$x),consumo$y)

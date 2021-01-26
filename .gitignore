@@ -2,3 +2,5 @@
 .Rhistory
 .RData
 .Ruserdata
+inst/script_development.R
+inst/script_testes_template.R
