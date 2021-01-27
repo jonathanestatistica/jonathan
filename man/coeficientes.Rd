@@ -10,7 +10,8 @@ Funcao para pegar os coeficientes estimados no modelo linear de regressao - linm
 \examples{
 x = cbind(1, dados2$x, dados2$z,dados2$w)
 y = dados2$y
-coeficientes(x,y)
+coef <- coeficientes(x,y)
+coef
 }
 \author{
 Jonathan S. Matias

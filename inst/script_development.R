@@ -14,7 +14,6 @@ devtools::load_all()
 devtools::check()
 
 devtools::test()
-devtools::test(encoding = "UTF-8")
 
 
 usethis::use_data(dados)
