@@ -1,6 +1,6 @@
 Package: Jonathan
 Type: Package
-Title: Modelo de consumo em funcao da renda
+Title: Estimando Modelo de MQO linear
 Version: 0.1.0
 Author: person(given = "Jonathan", 
       family = "Matias", 
