@@ -8,8 +8,8 @@
 Funcao limod para adicionar o metodo que estara disponivel no default.
 }
 \examples{
-reg3 <- linmod.default(cbind(1, dados$x), dados$y)
-reg3
+reg1 <- linmod(cbind(1, dados2$x, dados2$z, dados2$w), dados$y)
+reg1
 
 }
 \author{

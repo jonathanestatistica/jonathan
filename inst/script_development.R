@@ -11,9 +11,10 @@ usethis::use_git_ignore("inst/script_testes_template.R")
 devtools::document()
 devtools::install()
 devtools::load_all()
-
-#checando se o pacote está funcionando
 devtools::check()
+
+devtools::test()
+
 
 
 usethis::use_data(dados)

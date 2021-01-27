@@ -4,8 +4,12 @@
 #' @author Jonathan S. Matias
 #' @docType package
 #' @name previsao
-#' @aliases previsao
-#'
+#' @aliases jonathan_previsao
+#' @examples
+#' x = cbind(1, dados2$x, dados2$z,dados2$w)
+#' y = dados2$y
+#' mod = linmod(x,y,z,w)
+#' predict(mod)
 #'
 NULL
 

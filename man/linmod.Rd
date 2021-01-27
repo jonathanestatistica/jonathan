@@ -8,8 +8,10 @@
 Principal funcao generica limod
 }
 \examples{
-reg2 <- linmod(cbind(1, dados$x), dados$y)
-reg2
+reg <- linmod(cbind(1, dados$x), dados$y)
+summary(reg)
+reg1 <- linmod(cbind(1, dados2$x, dados2$z, dados2$w), dados$y)
+summary(reg1)
 }
 \author{
 Jonathan S. Matias

@@ -38,8 +38,10 @@ linmodEst <- function(x, y){
 #' @name linmod
 #' @aliases linmod
 #' @examples
-#' reg2 <- linmod(cbind(1, dados$x), dados$y)
-#' reg2
+#' reg <- linmod(cbind(1, dados$x), dados$y)
+#' summary(reg)
+#' reg1 <- linmod(cbind(1, dados2$x, dados2$z, dados2$w), dados$y)
+#' summary(reg1)
 NULL
 
 #' @export
@@ -54,8 +56,8 @@ linmod <- function(x, ...){
 #' @name linmod.defaut
 #' @aliases linmod.defaut
 #' @examples
-#' reg3 <- linmod.default(cbind(1, dados$x), dados$y)
-#' reg3
+#' reg1 <- linmod(cbind(1, dados2$x, dados2$z, dados2$w), dados$y)
+#' reg1
 #'
 NULL
 
@@ -71,16 +73,7 @@ linmod.default <- function(x, y, ...){
   est
 }
 
-#' @title limod_formula
-#' @description Funcao que tem como objetivo estabelecer a formula basica que deve ser utilizada na funcao a fim de estimar o modelo.
-#' @author Jonathan S. Matias
-#' @docType package
-#' @name linmod.formula
-#' @aliases linmod.formula
-#'
-NULL
 
-#' @export
 linmod.formula <- function(formula, data=list(), ...){
   mf <- model.frame(formula=formula, data=data)
   x <- model.matrix(attr(mf, "terms"), data=mf)

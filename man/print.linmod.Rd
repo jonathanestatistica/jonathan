@@ -3,9 +3,21 @@
 \docType{package}
 \name{print.linmod}
 \alias{print.linmod}
-\title{funcao linmod_class}
+\alias{#'}
+\alias{@examples}
+\alias{x}
+\alias{=}
+\alias{cbind(1,}
+\alias{dados2$x,}
+\alias{dados2$z,dados2$w)}
+\alias{y}
+\alias{dados2$y}
+\alias{mod}
+\alias{linmod(x,y,z,w)}
+\alias{print(mod)}
+\title{Coeficientes}
 \description{
-Funcao que fixa a classe de retorno dos objetos "linmod".
+Funcao que ira fazer o print dos coeficientes do modelo estimado usando a funcao linmod.
 }
 \author{
 Jonathan S. Matias

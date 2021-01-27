@@ -3,9 +3,17 @@
 \docType{package}
 \name{previsao}
 \alias{previsao}
+\alias{jonathan_previsao}
 \title{funcao de previsao}
 \description{
 Funcao que tem como objetivo calcular as previsoes baseadas no modelo ajustado.
+}
+\examples{
+x = cbind(1, dados2$x, dados2$z,dados2$w)
+y = dados2$y
+mod = linmod(x,y,z,w)
+predict(mod)
+
 }
 \author{
 Jonathan S. Matias

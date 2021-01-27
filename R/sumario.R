@@ -1,14 +1,17 @@
 #'
-#' @title funcao linmod_class
-#' @description Funcao que fixa a classe de retorno dos objetos "linmod".
+#' @title Coeficientes
+#' @description Funcao que ira fazer o print dos coeficientes do modelo estimado usando a funcao linmod.
 #' @author Jonathan S. Matias
 #' @docType package
 #' @name print.linmod
 #' @aliases print.linmod
-#'
+#'#' @examples
+#' x = cbind(1, dados2$x, dados2$z,dados2$w)
+#' y = dados2$y
+#' mod = linmod(x,y,z,w)
+#' print(mod)
 #'
 NULL
-
 
 #' @export
 print.linmod <- function(x, ...){
@@ -19,14 +22,17 @@ print.linmod <- function(x, ...){
 }
 
 
-#' @title sumario_princial
-#' The parameter estimates of a statistical
+#' @title Sumario
 #' @description Modelo sumarizado em 4 colunas contendo as estimativas, erro padrao, estatistica t e p-valor.
 #' @author Jonathan S. Matias
 #' @docType package
-#' @name summary.linmod
-#' @aliases summary.linmod
-#'
+#' @name sumario
+#' @aliases sumario
+#' @examples
+#' x = cbind(1, dados2$x, dados2$z,dados2$w)
+#' y = dados2$y
+#' mod = linmod(x,y,z,w)
+#' summary(mod)
 NULL
 
 
@@ -44,17 +50,6 @@ summary.linmod <- function(object, ...){
   res
 }
 
-
-#' @title Sumario_adicional
-#' @description Funcao com objetivo de exibier uma matriz com melhor arredondamento e visualmente melhor.
-#' @author Jonathan S. Matias
-#' @docType package
-#' @name print.summary
-#' @aliases print.summary
-#'
-NULL
-
-#' @export
 print.summary.linmod <- function(x, ...){
   cat("Call:\n")
   print(x$call)
