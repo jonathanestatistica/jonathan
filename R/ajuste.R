@@ -4,7 +4,7 @@
 #' @author Jonathan S. Matias
 #' @docType package
 #' @name linmodEst
-#' @aliases jonathan_ajuste
+#' @aliases linmodEst
 #' @examples
 #' reg <- linmodEst(cbind(1, dados$x), dados$y)
 #' reg
@@ -36,7 +36,7 @@ linmodEst <- function(x, y){
 #' @author Jonathan S. Matias
 #' @docType package
 #' @name linmod
-#' @aliases jonathan_ajuste1
+#' @aliases linmod
 #' @examples
 #' reg2 <- linmod(cbind(1, dados$x), dados$y)
 #' reg2
@@ -52,7 +52,10 @@ linmod <- function(x, ...){
 #' @author Jonathan S. Matias
 #' @docType package
 #' @name linmod.defaut
-#' @aliases jonathan_ajuste2
+#' @aliases linmod.defaut
+#' @examples
+#' reg3 <- linmod.default(cbind(1, dados$x), dados$y)
+#' reg3
 #'
 NULL
 
@@ -73,7 +76,7 @@ linmod.default <- function(x, y, ...){
 #' @author Jonathan S. Matias
 #' @docType package
 #' @name linmod.formula
-#' @aliases jonathan_ajuste3
+#' @aliases linmod.formula
 #'
 NULL
 

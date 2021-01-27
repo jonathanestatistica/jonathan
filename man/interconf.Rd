@@ -3,8 +3,12 @@
 \docType{package}
 \name{interconf}
 \alias{interconf}
-\alias{jonathan_interconf}
 \title{Funcao para calcular os intervalos de confianca dos parametros}
 \description{
 Esta funcao calcula o intervalo de confianca em torno nos parametros estimados considerando o nivel de confianca dado.
+}
+\examples{
+conf <- interconf(cbind(1,dados2$x,dados2$y,dados2$z,dados2$w),dados2$y,.0975)
+conf
+
 }

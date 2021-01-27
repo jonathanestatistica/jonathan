@@ -3,7 +3,6 @@
 \docType{package}
 \name{linmod.formula}
 \alias{linmod.formula}
-\alias{jonathan_ajuste3}
 \title{limod_formula}
 \description{
 Funcao que tem como objetivo estabelecer a formula basica que deve ser utilizada na funcao a fim de estimar o modelo.

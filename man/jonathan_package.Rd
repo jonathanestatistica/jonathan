@@ -3,7 +3,7 @@
 \docType{package}
 \name{jonathan_package}
 \alias{jonathan_package}
-\alias{template}
+\alias{Jonathan}
 \title{O pacote 'jonathan'}
 \description{
 Pacote ilustrativo para a disciplina de R avancado.

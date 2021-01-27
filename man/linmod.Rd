@@ -3,7 +3,6 @@
 \docType{package}
 \name{linmod}
 \alias{linmod}
-\alias{jonathan_ajuste1}
 \title{limod_principal}
 \description{
 Principal funcao generica limod

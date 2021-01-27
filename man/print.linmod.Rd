@@ -3,7 +3,6 @@
 \docType{package}
 \name{print.linmod}
 \alias{print.linmod}
-\alias{jonathan_sumario}
 \title{funcao linmod_class}
 \description{
 Funcao que fixa a classe de retorno dos objetos "linmod".

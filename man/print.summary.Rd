@@ -3,7 +3,6 @@
 \docType{package}
 \name{print.summary}
 \alias{print.summary}
-\alias{jonathan_sumario2}
 \title{Sumario_adicional}
 \description{
 Funcao com objetivo de exibier uma matriz com melhor arredondamento e visualmente melhor.

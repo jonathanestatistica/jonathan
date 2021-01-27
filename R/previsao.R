@@ -4,7 +4,7 @@
 #' @author Jonathan S. Matias
 #' @docType package
 #' @name previsao
-#' @aliases jonathan_previsao
+#' @aliases previsao
 #'
 #'
 NULL

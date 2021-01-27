@@ -3,10 +3,14 @@
 \docType{package}
 \name{linmod.defaut}
 \alias{linmod.defaut}
-\alias{jonathan_ajuste2}
 \title{limod_defaut}
 \description{
 Funcao limod para adicionar o metodo que estara disponivel no default.
+}
+\examples{
+reg3 <- linmod.default(cbind(1, dados$x), dados$y)
+reg3
+
 }
 \author{
 Jonathan S. Matias

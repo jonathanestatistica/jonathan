@@ -7,6 +7,7 @@ usethis::use_git_ignore("inst/script_development.R")
 usethis::use_git_ignore("inst/script_testes_template.R")
 
 #construindo o pacote
+
 devtools::document()
 devtools::install()
 devtools::load_all()
@@ -15,4 +16,5 @@ devtools::load_all()
 devtools::check()
 
 
-usethis::use_data(consumo)
+usethis::use_data(dados)
+usethis::use_data(dados2, overwrite = T)

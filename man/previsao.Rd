@@ -3,7 +3,6 @@
 \docType{package}
 \name{previsao}
 \alias{previsao}
-\alias{jonathan_previsao}
 \title{funcao de previsao}
 \description{
 Funcao que tem como objetivo calcular as previsoes baseadas no modelo ajustado.

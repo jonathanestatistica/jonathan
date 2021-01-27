@@ -3,7 +3,6 @@
 \docType{package}
 \name{vcov}
 \alias{vcov}
-\alias{jonathan_vcov}
 \title{Funcao variancia_covariancias}
 \description{
 Funcao que tem como objetivo estimar a matriz de variancia e covariancias do modelo com base no linmod

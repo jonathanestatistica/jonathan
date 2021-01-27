@@ -3,7 +3,6 @@
 \docType{package}
 \name{linmodEst}
 \alias{linmodEst}
-\alias{jonathan_ajuste}
 \title{funcao de ajuste do modelo}
 \description{
 Funcoes que tem como objetivo ajusta o modelo com base nos Minimos Quadrados e estimar todos os parametros.

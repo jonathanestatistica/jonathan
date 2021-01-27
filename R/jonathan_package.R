@@ -4,7 +4,7 @@
 #'
 #' @docType package
 #' @name jonathan_package
-#' @aliases template
+#' @aliases Jonathan
 #' @importFrom stats coef fitted model.frame model.matrix model.response printCoefmat pt qt
 #'
 NULL

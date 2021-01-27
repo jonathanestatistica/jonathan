@@ -4,7 +4,7 @@
 #' @author Jonathan S. Matias
 #' @docType package
 #' @name print.linmod
-#' @aliases jonathan_sumario
+#' @aliases print.linmod
 #'
 #'
 NULL
@@ -25,7 +25,7 @@ print.linmod <- function(x, ...){
 #' @author Jonathan S. Matias
 #' @docType package
 #' @name summary.linmod
-#' @aliases jonathan_sumario1
+#' @aliases summary.linmod
 #'
 NULL
 
@@ -50,7 +50,7 @@ summary.linmod <- function(object, ...){
 #' @author Jonathan S. Matias
 #' @docType package
 #' @name print.summary
-#' @aliases jonathan_sumario2
+#' @aliases print.summary
 #'
 NULL
 

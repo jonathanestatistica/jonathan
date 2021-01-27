@@ -3,7 +3,6 @@
 \docType{package}
 \name{summary.linmod}
 \alias{summary.linmod}
-\alias{jonathan_sumario1}
 \title{sumario_princial
 The parameter estimates of a statistical}
 \description{
