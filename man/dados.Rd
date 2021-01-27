@@ -15,7 +15,7 @@ item y: consumo.
 Bureau of Economic Analysis, Departamento de Comércio dos EUA: http://www.bea.doc.gov/bea/dn1.htm
 }
 \description{
-Despesa real de consumo e renda real para os Estados Unidos no período 1947-2000.
+Despesa real de consumo e renda real para os Estados Unidos no periodo de 1947 a 2000.
 }
 \author{
 Jonathan S. Matias \email{onathanestatistica@gmail.com }

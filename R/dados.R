@@ -4,7 +4,7 @@
 #' @docType data
 #' @author Jonathan S. Matias \email{onathanestatistica@gmail.com }
 #' @keywords consumo, renda disponivel
-#' @description Despesa real de consumo e renda real para os Estados Unidos no período 1947-2000.
+#' @description Despesa real de consumo e renda real para os Estados Unidos no periodo de 1947 a 2000.
 #' @format Um data frame com 54 linhas and 2 variaveis sendo:
 #' \itemize{
 #' item x: renda disponivel;
